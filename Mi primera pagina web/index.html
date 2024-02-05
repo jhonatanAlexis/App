@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-png" href="./img/list.png">
+    <style>
+        body{
+            background-color: blanchedalmond;
+            border: solid black 1px;
+            font-size: large;
+            color: brown;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .main-heading{
+            text-align: center;
+            color: blue;
+        }
+    </style>
+    <title>Google Forms</title>
+</head>
+<body>
+    <h1 class="main-heading" >Login</h1>
+    <hr>
+    <form name="login">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre">
+        <br>
+        <label for="apellido_paterno">Apellido paterno:</label>
+        <input type="text" name="apellido_paterno" id="apellido_paterno" placeholder="Escribe tu apellido paterno">
+        <br>
+        <label for="apellido_materno">Apellido materno:</label>
+        <input type="text" name="apellido_materno" id="apellido_materno" placeholder="Escribe tu apellido materno">
+        <br>
+        <label for="edad">Edad:</label>
+        <input type="number" name="edad" id="edad" min="0" placeholder="Escribe tu edad">
+        <br>
+        <label for="correo">Correo:</label>
+        <input type="email" name="correo" id="correo" placeholder="Escribe tu direccion de correo electronico">
+        <br>
+        <td>Seleccione su genero</td>
+        <br>
+        <label for="genero">Masculino:</label>
+        <input type="radio" name="genero" id="genero">
+        <label for="genero">Femenino:</label>
+        <input type="radio" name="genero" id="genero">
+        <br>
+        <a href="http://127.0.0.1:5500/index2.html" target="_blank" rel="noopener noreferrer">Enviar datos</a>
+    </form>
+</body>
+</html>
